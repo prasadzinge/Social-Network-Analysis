@@ -31,10 +31,10 @@ import sys
 import time
 from TwitterAPI import TwitterAPI
 
-consumer_key = 'Lq9q3hAoDxG9OSI1j3s8GTvFB'
-consumer_secret = 'EExvm6aJuuLFpmVPgP7VVQHlCkJr8Mp9dwTBAOn7fXN0paJUXe'
-access_token = '557903245-ixtt1JWPX8sNTJUPLfSC5PKAYsAHLTwa8IJv62U1'
-access_token_secret = 'MUCoLklZyYUiATGc8Rs0EdpJQqBOKAXzVaQCU27wev9Hp'
+consumer_key = 'Key'
+consumer_secret = 'key'
+access_token = 'key'
+access_token_secret = 'key'
 
 
 # This method is done for you.
