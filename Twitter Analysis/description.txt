@@ -1,0 +1,34 @@
+Overview - In this assignment, I have collected user data for 7 Manchester United Players and max 150 friends of each player.  Then I have collected tweets using the handle #manutd. I used community detection and found 3 communites and I have  lableled the initial users for whom I have collected friends for. This helped me to understand the communities that the players have amongst themselves. For the tweet, I have tried to understand the number of Positive and negative tweets per gender. I found that females have posted more positive tweets than males.
+
+**********************************************************************************************************************************************
+
+Collect.py
+I have collected max 150 friends for 7 of the top player in Manchester United. I got 402 friends as a few players like Paul Pogba has only 15 friends. I collected tweets for #manutd but limited it to 1000
+
+
+***********************************************************************************************************************************************
+
+Cluster.py
+
+I used girvan newman algorithm to detect communities. I have limited the communities to 3 and I have labeled only the players for whom I have extracted the friends data. I found 3 communities.
+1. Paul Pogba - this player is a star and is not involved actively  on social media with other new players
+2. Anthony Martial, Jesse Lingard and Marcus Rashford are in one community which feels right as all the youngsters and very good friends on the pitch and outside as well
+3. the others are in the third community. I feel that they have more in common as they are all senior players 
+
+************************************************************************************************************************************************
+
+Classify.py
+
+In this file, i have tried to analyze the tweets for # manutd. I have used census data to classify Males and Females and then Afinn to classify them further in positive and negative tweets. I have tried to find if Males tweet more positively than females or vice versa. I found that females have tweeted more positively than males but this would not a conclusive study as this is a very small sample
+
+*************************************************************************************************************************************************
+
+summarize.py
+
+This file has the summary of:
+Number of users collected:
+Number of messages collected:
+Number of communities discovered:
+Average number of users per community:
+Number of instances per class found:
+One example from each class:
